@@ -1,0 +1,216 @@
+ /*----------------- Common Css Start-------------------------------- */
+
+ body {
+     margin: 0;
+     font-family: 'Rajdhani', sans-serif;
+ }
+
+ h1 {
+     font-size: 90px
+ }
+
+ h2 {
+     font-size: 60px;
+ }
+
+ h3 {
+     font-size: 35px;
+ }
+
+ p {
+     font-size: 25px;
+     margin-bottom: 50px;
+
+ }
+
+ .donate-button {
+     font-size: 30px;
+     color: #FFFFFF;
+     text-decoration: none;
+     padding: 15px 25px;
+     background-color: #d35400;
+     border-radius: 7px;
+     font-weight: 700;
+     margin-top: 20px;
+     display: inline-block;
+ }
+
+ ::placeholder {
+     font-size: 20px;
+     text-align: center;
+ }
+
+ /*----------------------- Common Css End--------------------------- */
+
+ /*---------------------- Top Banner Area Start--------------------- */
+
+ .top-banner {
+     height: 800px;
+     text-align: center;
+     color: #FFFFFF;
+     background: url('images/donation13.jpg') no-repeat 0 0 / cover;
+     padding-top: 40px;
+ }
+
+ /*-------------------- Top Banner Area End--------------------------- */
+
+ /*--------------------- Dontation Amount Area Start---------------------- */
+
+ .donate-today {
+     height: 840px;
+     padding: 100px 200px 0 200px;
+     text-align: center;
+ }
+
+ .taka {
+     font-size: 50px;
+     padding: 50px 28px;
+     background-color: rgba(0, 0, 0, 0.1);
+     display: inline-block;
+     border-radius: 7px;
+     margin-left: 20px;
+ }
+
+ .selected {
+     border: 3px solid #ED4C67;
+     background-color: rgba(237, 76, 103, 0.1);
+ }
+
+ .donation-amount input {
+     display: block;
+     margin: 50px 0 0 370px;
+     padding: 20px 0;
+     width: 50%;
+     border: none;
+ }
+
+ ::placeholder {
+     font-size: 20px;
+     text-align: center;
+ }
+
+ /*---------------------- Dontation Amount Area End-------------------- */
+
+ /*----------------------- Donation Plan Area Start----------------------- */
+
+ .donation-plan {
+     height: 850px;
+     box-sizing: border-box;
+ }
+
+ .plan-description {
+     width: 60%;
+     margin: auto;
+     text-align: center;
+ }
+
+ .ordinary-plan {
+     width: 75%;
+     display: flex;
+     margin: auto;
+ }
+
+ .aid-plan {
+     padding: 60px 0 0 30px;
+     margin-right: 25px;
+     border-radius: 7px;
+ }
+
+ #food-plan {
+     background-color: rgba(127, 143, 166, 0.1);
+
+ }
+
+ #shelter-plan {
+     background-color: rgba(252, 66, 123, 0.1);
+
+ }
+
+ #medicine-plan {
+
+     background-color: rgba(248, 239, 186, 0.1);
+ }
+
+ #medicine-plan img {
+     width: 11%
+ }
+
+ /*----------------------- Donation Plan Area End-------------------------- */
+
+ /*--------------------------- Extra Area Start------------------------------- */
+
+ .inspiration-area {
+     text-align: center;
+ }
+
+ .flexible-container {
+     display: flex;
+     width: 80%;
+     margin: auto;
+ }
+
+ .flexible-container img {
+     border: 1px solid #ff9f1a;
+     border-radius: 115px;
+ }
+
+ #ahmadullah {
+     width: 15%;
+ }
+
+ /*--------------------------- Extra Area End------------------------------ */
+
+ /*-------------------------- Updates Area Start----------------------------- */
+
+ .update-area {
+     height: 725px;
+     width: 70%;
+     margin: auto;
+     text-align: center;
+     box-sizing: border-box;
+ }
+
+ .subscription {
+     background-color: rgba(255, 175, 64, 0.2);
+     padding: 125px 300px;
+ }
+
+ #email {
+     padding: 26px 200px 22px 25px;
+     background-color: rgba(210, 218, 226, 0.6);
+     border: none;
+     border-radius: 7px 0 0 7px;
+ }
+
+ #subscribe {
+     color: #FFFFFF;
+     padding: 20px 70px;
+     background-color: rgba(245, 59, 87, 0.8);
+     border: none;
+     border-radius: 0 7px 7px 0;
+     font-size: 20px;
+     margin-left: -4px;
+ }
+
+ #email::placeholder {
+     text-align: left;
+ }
+
+ /*-------------------------- Updates Area End------------------------------- */
+
+ /*---------------------------- Footer Area Start------------------------------ */
+
+ footer {
+     color: #FFFFFF;
+     height: 200px;
+     background-color: rgba(0, 0, 0, 0.8);
+     text-align: center;
+     box-sizing: border-box;
+ }
+
+ footer h3 {
+     color: #ee5253;
+     padding-top: 50px;
+ }
+
+ /*------------------------------- Footer Area End--------------------------------- */
